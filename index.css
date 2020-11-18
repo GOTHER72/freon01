@@ -1,0 +1,62 @@
+body {
+    font-family: sans-serif;
+    font-size: 20 px;
+    line-height:1.6em;
+    font-variant: small-caps;
+    font-feature-settings: "abvs";
+    font-variant-ligatures: discretionary-ligatures;
+    font-weight: bold;
+    margin:0px;
+
+}
+.container{
+    width: 50%;
+    margin: auto;
+    overflow: hidden;
+}
+#mainheader{
+    background-color: rgb(242, 86, 15);
+}
+#mainnav{
+    background: rgb(34, 204, 111);
+    color: black;
+}
+#mainnav ul{
+    padding: 0px;
+    margin: 0px;
+    list.style:none;
+
+}
+
+#mainnav li{
+    display:inline;
+    padding:5px 8px;
+}
+#mainnav a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+#mainnav li:hover{
+    background: #ffffff;
+}
+p{
+    border-radius: inherit;
+    border-top: 5px solid blue;
+    border-bottom: brown 5px dotted;
+    border: 3px solid green;
+    padding: 10px 20px 10px 20px;
+    margin-top: 40px;
+}
+#jumbo {
+    background-image: url('../Calculator/3653.jpg');
+    background-position: center center;
+    min-height: 300px;
+    text-align: center;
+}
+#jumbo h1 {
+    color: cadetblue;
+    padding: 10px;
+    line height: 10 px;
+    font-size:45px;
+}
